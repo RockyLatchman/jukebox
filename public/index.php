@@ -3,7 +3,7 @@
 $request = $_SERVER['REQUEST_URI'];
 $method = $_SERVER['REQUEST_METHOD'];
 
-$path = parse_url($request, PHP_URL_PATH);
+#$path = parse_url($request, PHP_URL_PATH);
 
 include_once '../templates/header.php';
 

@@ -1,2 +1,5 @@
 .env
 public/images
+public/.htaccess
+.htaccess
+vendor

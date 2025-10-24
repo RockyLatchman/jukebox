@@ -21,7 +21,7 @@ switch ($path) {
         break;
 
     case '/jukebox/sign-up':
-        include_once '../templates/sign-up.php';
+        include_once '../templates/registration/sign-up.php';
         break;
 
     case '/jukebox/sign-in':

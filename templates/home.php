@@ -1,32 +1,32 @@
 <header>
    <div class="logo">
-       <a href="/jukebox"><img src="./public/images/music_note.png" alt="Image of music note">
+       <a href="http://localhost/jukebox"><img src="./public/images/music_note.png" alt="Image of music note">
       <h2>Jukebox</h2></a>
    </div>
    <nav>
      <menu>
-        <li><a href="/jukebox/features">Features</a></li>
-        <li><a href="/jukebox/music/collections">Play music</a></li>
-        <li><a href="/jukebox/api">API</a></li>
+        <li><a href="http://localhost/jukebox/features">Features</a></li>
+        <li><a href="http://localhost/jukebox/music/collections">Play music</a></li>
+        <li><a href="http://localhost/jukebox/api">API</a></li>
      </menu>
      <menu>
-        <li><a href="/jukebox/sign-in">Sign in</a></li>
-        <li><a href="/jukebox/sign-up">Sign up</a></li>
+        <li><a href="http://localhost/jukebox/sign-in">Sign in</a></li>
+        <li><a href="http://localhost/jukebox/sign-up">Sign up</a></li>
      </menu>
    </nav>
 </header>
 <main>
     <section>
         <div>
-          <img src="./public/images/wave.png" id="wave" alt="">
+          <img src="http://localhost/jukebox/public/images/wave.png" id="wave" alt="">
         </div>
         <div>
           <h2>MUSIC TAILORED TO THE FAN IN YOU</h2>
           <p>Get hot playlist and song of the day from popular artists</p>
-          <span><a href="/jukebox/sign-up">Start listening</a></span>
+          <span><a href="http://localhost/jukebox/sign-up">Start listening</a></span>
         </div>
         <div>
-            <img src="./public/images/music-lady.png" alt="">
+            <img src="http://localhost/jukebox/public/images/music-lady.png" alt="">
         </div>
     </section>
     <section>
@@ -35,7 +35,7 @@
                 <div class="miniplayer-feature"><span>:: SONG OF THE DAY ::</span></div>
                 <div class="miniplayer">
                  <div>
-                   <img src="./public/images/kehlani.png" alt="Album cover">
+                   <img src="http://localhost/jukebox/public/images/kehlani.png" alt="Album cover">
                    <div class="miniplayer-artist-details">
                      <ul>
                       <li>Kehlani</li>
@@ -56,7 +56,7 @@
              </div>
         </header>
        <div>
-          <img src="./public/images/king_nas.png" id="bottom-left-image" alt="">
+          <img src="http://localhost/jukebox/public/images/king_nas.png" id="bottom-left-image" alt="">
         </div>
         <div>
           <h2>Your Music. Anywhere</h2>
@@ -91,7 +91,7 @@
                </p>
            </div>
         </div>
-        <span><a href="/jukebox/sign-up">Join the community</a></span>
+        <span><a href="http://localhost/jukebox/sign-up">Join the community</a></span>
        </div>
     </section>
 </main>

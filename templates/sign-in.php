@@ -1,17 +1,17 @@
 <header>
     <div class="logo">
-        <a href="/jukebox"><img src="./public/images/music_note.png" alt="Image of music note">
+        <a href="http://localhost/jukebox"><img src="http://localhost/jukebox/public/images/music_note.png" alt="Image of music note">
        <h2>Jukebox</h2></a>
     </div>
    <nav>
      <menu>
-        <li><a href="/jukebox/features">Features</a></li>
-        <li><a href="/jukebox/all">Play music</a></li>
-        <li><a href="/jukebox/api">API</a></li>
+        <li><a href="http://localhost/jukebox/features">Features</a></li>
+        <li><a href="http://localhost/jukebox/music/collections">Play music</a></li>
+        <li><a href="http://localhost/jukebox/api">API</a></li>
      </menu>
      <menu>
-        <li><a href="/jukebox/sign-in">Sign in</a></li>
-        <li><a href="/jukebox/sign-up">Sign up</a></li>
+        <li><a href="http://localhost/jukebox/sign-in">Sign in</a></li>
+        <li><a href="http://localhost/jukebox/sign-up">Sign up</a></li>
      </menu>
    </nav>
 </header>

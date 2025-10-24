@@ -22,6 +22,21 @@ switch ($path) {
 
     case '/jukebox/sign-up':
         include_once '../templates/registration/sign-up.php';
+        if (isset($_POST['signup'])) {
+           header("Location: /jukebox/sign-up/preferences");
+           exit();
+        }
+        break;
+
+    case '/jukebox/sign-up/preferences':
+        include_once '../templates/registration/preferences.php';
+        if(isset($_POST['genres'])) {
+            header("Location: /jukebox/");
+            exit();
+        }
+        break;
+
+    case '/jukebox/sign-up/upload-music':
         break;
 
     case '/jukebox/sign-in':

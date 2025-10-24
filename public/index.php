@@ -31,13 +31,29 @@ switch ($path) {
     case '/jukebox/sign-up/preferences':
         include_once '../templates/registration/preferences.php';
         if(isset($_POST['genres'])) {
-            header("Location: /jukebox/");
+            header("Location: /jukebox/sign-up/upload-music");
             exit();
         }
         break;
 
     case '/jukebox/sign-up/upload-music':
+        include_once '../templates/registration/upload-music.php';
+        if (isset($_POST['track-upload'])) {
+            header("Location: /jukebox/sign-up/add/jukebox");
+            break;
+        }
         break;
+
+    case '/jukebox/sign-up/add/jukebox':
+        include_once '../templates/registration/create-jukebox.php';
+        if (isset($_POST['add-jukebox'])){
+            header("Location: /jukebox/sign-up/profile/settings");
+            exit();
+        }
+        break;
+
+
+
 
     case '/jukebox/sign-in':
         include_once '../templates/sign-in.php';

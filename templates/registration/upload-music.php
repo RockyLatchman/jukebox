@@ -22,7 +22,7 @@
             <h3>Add music</h3>
             <p>Drop one or more of your songs below</p>
             <div class="track-uploads"><p>Drop tracks here</p></div>
-            <input type="submit" name="track-upload" value="Save genres">
+            <input type="submit" name="track-upload" value="Upload track">
          </form>
         </div>
     </section>

@@ -1,3 +1,4 @@
+<div class="container">
 <header>
    <div class="logo">
        <a href="http://localhost/jukebox"><img src="./public/images/music_note.png" alt="Image of music note">
@@ -95,3 +96,4 @@
        </div>
     </section>
 </main>
+</div>

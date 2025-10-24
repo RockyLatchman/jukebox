@@ -1,7 +1,7 @@
 <?php
 
-ini_set('display_errors', '1');
-error_reporting(E_ALL);
+#ini_set('display_errors', '1');
+#error_reporting(E_ALL);
 
 $request = $_SERVER['REQUEST_URI'];
 $method = $_SERVER['REQUEST_METHOD'];
@@ -57,10 +57,14 @@ switch ($path) {
             exit();
         }
         include_once '../templates/registration/profile-settings.php';
-        if (isset($_POST['save-preferences'])) {
+        if (isset($_POST['save-preference'])) {
             header("Location: /jukebox/sign-up/all-done");
             exit();
         }
+        break;
+
+    case '/jukebox/sign-up/all-done':
+        include_once '../templates/registration/all-done.php';
         break;
 
     case '/jukebox/sign-in':

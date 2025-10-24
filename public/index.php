@@ -3,11 +3,11 @@
 $request = $_SERVER['REQUEST_URI'];
 $method = $_SERVER['REQUEST_METHOD'];
 
-#$path = parse_url($request, PHP_URL_PATH);
+$path = parse_url($request, PHP_URL_PATH);
 
 include_once '../templates/header.php';
 
-switch ($request) {
+switch ($path) {
     case '/jukebox/':
         include_once '../templates/home.php';
         break;
@@ -17,27 +17,31 @@ switch ($request) {
         break;
 
     case '/jukebox/api':
+        include_once '../templates/api.php';
         break;
 
     case '/jukebox/sign-up':
+        include_once '../templates/sign-up.php';
         break;
 
     case '/jukebox/sign-in':
+        include_once '../templates/sign-in.php';
         break;
 
     case '/jukebox/sign-out':
+        include_once '../templates/sign-out.php';
         break;
 
     case '/jukebox/my-jukebox':
+        include_once '../templates/jukebox.php';
         break;
 
     case '/jukebox/profile':
+        include_once '../templates/profile.php';
         break;
 
-    case '/jukebox/all':
-        break;
-
-    case '/jukebox/collections':
+    case '/jukebox/music/collections':
+        include_once '../templates/jukeboxes.php';
         break;
 
     default:
@@ -45,3 +49,5 @@ switch ($request) {
         include_once '../templates/404.php';
         break;
 }
+
+include_once '../templates/footer.php';

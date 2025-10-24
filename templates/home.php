@@ -6,7 +6,7 @@
    <nav>
      <menu>
         <li><a href="/jukebox/features">Features</a></li>
-        <li><a href="/jukebox/all">Play music</a></li>
+        <li><a href="/jukebox/music/collections">Play music</a></li>
         <li><a href="/jukebox/api">API</a></li>
      </menu>
      <menu>

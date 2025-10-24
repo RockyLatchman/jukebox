@@ -1,8 +1,8 @@
 <header>
-   <div class="logo">
-       <img src="./public/images/music_note.png" alt="Image of music note">
-      <h2>Jukebox</h2>
-   </div>
+    <div class="logo">
+        <a href="/jukebox"><img src="./public/images/music_note.png" alt="Image of music note">
+       <h2>Jukebox</h2></a>
+    </div>
    <nav>
      <menu>
         <li><a href="/jukebox/features">Features</a></li>

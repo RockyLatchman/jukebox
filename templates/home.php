@@ -1,7 +1,7 @@
 <header>
    <div class="logo">
-       <img src="./public/images/music_note.png" alt="Image of music note">
-      <h2>Jukebox</h2>
+       <a href="/jukebox"><img src="./public/images/music_note.png" alt="Image of music note">
+      <h2>Jukebox</h2></a>
    </div>
    <nav>
      <menu>

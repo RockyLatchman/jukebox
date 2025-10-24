@@ -1,5 +1,8 @@
 <?php
 
+ini_set('display_errors', '1');
+error_reporting(E_ALL);
+
 $request = $_SERVER['REQUEST_URI'];
 $method = $_SERVER['REQUEST_METHOD'];
 
@@ -40,20 +43,25 @@ switch ($path) {
         include_once '../templates/registration/upload-music.php';
         if (isset($_POST['track-upload'])) {
             header("Location: /jukebox/sign-up/add/jukebox");
-            break;
+            exit();
         }
         break;
 
     case '/jukebox/sign-up/add/jukebox':
         include_once '../templates/registration/create-jukebox.php';
-        if (isset($_POST['add-jukebox'])){
+        break;
+
+    case '/jukebox/sign-up/profile/settings':
+        if (isset($_POST['add-jukebox'])) {
             header("Location: /jukebox/sign-up/profile/settings");
             exit();
         }
+        include_once '../templates/registration/profile-settings.php';
+        if (isset($_POST['save-preferences'])) {
+            header("Location: /jukebox/sign-up/all-done");
+            exit();
+        }
         break;
-
-
-
 
     case '/jukebox/sign-in':
         include_once '../templates/sign-in.php';

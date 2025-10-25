@@ -17,14 +17,14 @@
 </header>
 <main>
     <section>
-        <div>
+        <div class="form-card">
          <form method="POST">
             <h3>Sign in</h3>
-            <input type="email" name="email" placeholder="E-mail"  required>
-            <input type="password" name="password" placeholder="Password"  required>
+            <input type="email" name="email" placeholder="E-mail" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <span><a href="">Forgot password?</a></span>
             <input type="submit" name="signup" value="Sign up">
             <input type="submit" name="signin" value="Sign in">
-            <span><a href="">Forgot password?</a></span>
          </form>
         </div>
     </section>

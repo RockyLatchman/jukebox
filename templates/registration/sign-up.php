@@ -17,7 +17,7 @@
 </header>
 <main>
     <section>
-        <div>
+        <div class="form-card">
          <form method="POST" name="registration-form">
             <h3>Sign up</h3>
             <input type="text" name="username" placeholder="Username"  required>

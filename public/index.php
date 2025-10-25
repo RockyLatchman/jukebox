@@ -15,10 +15,6 @@ switch ($path) {
         include_once '../templates/home.php';
         break;
 
-    case '/jukebox/features':
-        include_once '../templates/features.php';
-        break;
-
     case '/jukebox/api':
         include_once '../templates/api.php';
         break;

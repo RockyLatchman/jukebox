@@ -34,9 +34,30 @@ class Jukebox {
 
    }
 
+   public function save_track() {
+
+   }
+
    public function get_track_lyrics() {
 
    }
+
+   public function share_collection() {
+
+   }
+
+   public function set_visibility() {
+
+   }
+
+   public function like_item() {
+
+   }
+
+   private function play_count() {
+
+   }
+
 
 
 
